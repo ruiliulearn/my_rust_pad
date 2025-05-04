@@ -1,0 +1,8 @@
+[package]
+name = "rustpad"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.27" # (this includes egui + window creation)
+rfd = "0.13" # for native file dialog boxes
